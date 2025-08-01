@@ -18,7 +18,10 @@ app.use('/videos', express.static(path.join(__dirname, 'videos')));
 
 // Middleware
 app.use(cors({
-  origin: 'http://localhost:5175',
+  origin: [
+    'http://localhost:5175',                 // dev
+    'e-learning-online1.netlify.app'          // production
+  ],
   methods: ['GET', 'POST'],
   credentials: true
 }));
