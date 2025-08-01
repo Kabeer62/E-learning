@@ -18,7 +18,7 @@ app.use('/videos', express.static(path.join(__dirname, 'videos')));
 
 // Middleware
 app.use(cors({
-  origin: 'http://localhost:5173',
+  origin: 'http://localhost:5175',
   methods: ['GET', 'POST'],
   credentials: true
 }));
