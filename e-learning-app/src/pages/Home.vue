@@ -961,7 +961,7 @@ export default {
   font-size: 1.2rem;
   color: white;
   cursor: pointer;
-  margin-left: 2rem;
+  margin-left: 6rem;
   margin-top: 0.4rem;
   transition: background-color 0.3s ease;
 }
@@ -1220,8 +1220,8 @@ export default {
   background-position: center;
   position: relative;
   width: 101%;
-  max-width: 1450px;
-  height: 49.5rem;
+  max-width: 1550px;
+  height: 52.8rem;
   margin-left: -0.5rem;
   margin-top: -1rem;
   overflow: hidden;
